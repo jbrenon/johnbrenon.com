@@ -3,9 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marci Metzher Homes - Real Estate Agent, Real Estate, Realtor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>This is a website</h1>
+
+    <div class="center">
+        <div class="menu">
+            <input type="checkbox" id="menu">
+            <div class="logo">
+                <a href="#" class="logo-img"><img src="logo.webp" alt=""></a>
+                <label for="menu"></label>
+            </div>
+            <div class="items">
+                <a href="" class="item" style="--i:0;">HOME</a>
+                <a href="" class="item" style="--i:1;">LISTINGS</a>
+                <a href="" class="item" style="--i:2;">LET'S MOVE</a>
+                <a href="" class="item" style="--i:3;">ABOUT US</a>
+            </div>
+        </div>
+    </div>
+
+    <!--header -------------------------------------------------------------------------------->
+    
+    <section class="hero">
+        <div class="hero-header">
+            <div class="header-content">
+                <h1>Marci Metzger</h1>
+                <p class="subtitle">The Ridge Realty Group</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- about me -------------------------------------------------------------------------  -->
+
+    <section class="about-me">
+        <div class="about-image">
+            <img src="marci1.webp" alt="">
+        </div>
+        <div class="about-content">
+            <h1>MARCI METZGER</h1>
+            <p>Marci was a REALTOR, then licensed Broker, in Washington State. Having helped buyers and sellers in many markets since 1995, she is a wealth of knowledge. In Her Words
+            "I love that small-town feeling that our community offers. Spectacular golf courses, parks, pool, and easy access to Las Vegas make Pahrump a great place to call home. Working or retired, fast-paced or looking to relax... there's a place for you here!
+            I enjoy living in the Mountain Falls community and will strive to find you a home that will suit you just as this community does me."</p>
+            <a href="#" class="btn btn-primary">Call Now</a>
+        </div>
+    </section>
+
+     <!-- got it sold -------------------------------------------------------------------------  -->
+    <section class="got-it-sold">
+        <div class="got-it-sold-content">
+            <h1>GET IT SOLD</h1>
+        </div>
+        <div class="sold-items">
+            <div class="first-item">
+                <img src="download1.webp" alt="">
+                <h3>Top Residential Sales Last 5 Years</h3>
+                <p>We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.</p>
+            </div>
+            <div class="second-item">
+                <img src="download2.webp" alt="">
+                <h3>Don't Just List it...</h3>
+                <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.</p>
+            </div>
+            <div class="third-item">
+                <img src="download3.webp" alt="">
+                <h3>Guide to Buyers</h3>
+                <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--DREAM HOME SECTION------------------------------------------------------------------------------>
+
+    <section class="dream-home">
+        <div class="search-container-img">
+            <h1>Find Your Dream Home</h1>
+            <div class="search-container">
+            <h1>Search Listings</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <select id="location">
+                            <option>Select a location</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Type</label>
+                        <select id="type">
+                            <option>Select type</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sort">Sort By</label>
+                        <select id="sort">
+                            <option>Select sorting</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bedrooms">Bedrooms</label>
+                        <select id="bedrooms">
+                            <option>Any Number</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="baths">Baths</label>
+                        <select id="baths">
+                            <option>Any Number</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="min-price">Min Price</label>
+                        <input type="number" id="min-price" placeholder="$">
+                    </div>
+                    <div class="form-group">
+                        <label for="max-price">Max Price</label>
+                        <input type="number" id="max-price" placeholder="$">
+                    </div>
+                </div>
+                <div class="search-button">
+                    <button type="submit">SEARCH NOW</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--PHOTO GALLERY----------------------------------------------------------------------------------->
+
+    <section class="photo-gallery">
+        <h1>PHOTO GALLERY</h1>
+        <div class="gallery-container">
+            <div class="gallery-container-up">
+                <div class="image">
+                    <img src="gallery1.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="gallery2.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="gallery3.webp" alt="">
+                </div>
+            </div>
+            <div class="gallery-container-down">
+                <div class="image">
+                    <img src="gallery4.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="gallery5.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="gallery6.webp" alt="">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES--------------------------------------------------------------------------------------->
+
+    <section class="services">
+        <div class="services-content">
+            <h1>OUR SERVICES</h1>
+        </div>
+        <div class="services-content-container">
+            <div class="first-services-content-container">
+                <img src="services1.webp" alt="">
+                <h3>Real Estate Done Right</h3>
+                <p>Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!</p>
+            </div>
+            <div class="second-services-content-container">
+                <img src="services2.webp" alt="">
+                <h3>Commercial & Residential</h3>
+                <p>Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put you hard-earned dollars.</p>
+            </div>
+            <div class="third-services-content-container">
+                <img src="services3.webp" alt="">
+                <h3>Rely on Expertise</h3>
+                <p>If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ---------------------------------------------------------------------------------------->
+    <section class="get-in-touch">
+        <h1>Call or Visit</h1>
+        <div class="contact-section">
+            <div class="contact-container">
+                <h2>Send A Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-container">
+                <p><iframe id="map-canvas" class="map_part" width="600"  height="450"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=3190 HW-160, Suite F, Pahrump, Nevada 89048, United States&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com/">embed google maps</a> and <a href="https://skipboregler.com/skip-bo-regeln/">skip bo regeln</a></iframe></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- REALTOR----------------------------------------------------------------------------------------->
+
+    <section class="realtor">
+        <div class="realtor-content">
+            <div class="realtor-content-img">
+                <img src="realty1.png" alt="">
+            </div>
+            <div class="realtor-content-img">
+                <img src="realty2.png" alt="">
+            </div>
+            <div class="realtor-content-img">
+                <img src="realty3.png" alt="">
+            </div>
+            <div class="realtor-content-img">
+                <img src="realty4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer --------------------------------------------------------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Marci Metzger - THE RIDGE REALTY GROUP</h3>
+                <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                <p>Tel No: (206) 919-6886</p>
+                <p>Office Hours</p>
+                <p>Open daily | 8:00 am - 7:00 pm</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#">LISTINGS</a></li>
+                    <li><a href="#">LET'S MOVE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/MarciHomes/"> <i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/marciandlauren_nvrealtors/"> <i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/marci-metzger-30642496/"> <i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump"> <i class="fab fa-yelp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>Copyright &copy; 2023 Marci METZGER Homes - All Rights Reserved</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
